@@ -1,394 +1,105 @@
+# index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <title>Saurabh Maydeo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Maydeo - Machine Learning | Healthcare | Bioinformatics</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-
 </head>
 <body>
-    
     <nav id="desktop-nav">
         <div class="logo">Saurabh Maydeo</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experiance">Experiance</a></li>
                 <li><a href="#research">Research</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Saurabh Maydeo</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experiance" onclick="toggleMenu()">Experiance</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
+
     <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic2.png"  alt="Saurabh Maydeo Profile Picture">
-        </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Saurabh Maydeo</h1>
-            <p class="section__text__p2">PhD Computer Science Student at UT Arlington</p>
-        <div class="btn-container">
-            <button 
-                class="btn btn-color-2" 
-                onclick="window.open('./assets/CV_Saurabh_Maydeo.pdf')">
-                Download CV
-            </button>
-            <button 
-                class="btn btn-color-1" 
-                onclick="location.href = './#contact'">
-                Contact Info
-            </button>
+            <p class="section__text__p2">PhD Student at University of Texas at Arlington</p>
+            <p>Machine Learning • Healthcare • Bioinformatics</p>
         </div>
-        <div id="socials-container">
-            <img src="./assets/linkedin.png" 
-                alt="My Linkedin Profile" 
-                class="icon" 
-                onclick="location.href='https://www.linkedin.com/in/saurabh-maydeo'"
-            />
-            <img src="./assets/github.png" 
-                alt="My Github Profile" 
-                class="icon" 
-                onclick="location.href='https://github.com/SaurabhMaydeo'"
-            />
-        </div>
-        </div>
-        <img src="./assets/arrow.png" 
-        alt="Arrow Icon" 
-        class="icon arrow" 
-        onclick="location.href='./#about'">
     </section>
+
     <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png" 
-                alt="Profile Picture"
-                class="about-pic"
-                />
+            <div class="section__text">
+                <p>I am a PhD student at University of Texas at Arlington, majoring in Computer Science working with Dr. Jacob Luber at Luber Lab. I am applying Machine Learning and Health Data Science to omic data for advancements in cancer diagnosis, prognosis, treatment, and drug discovery.</p>
+                <p>My research aims to bridge the gap between data science and clinical applications, contributing to the development of new drugs and treatment strategies that improve patient outcomes. Through my work, I strive to make significant contributions to the fight against cancer and enhance the understanding of its underlying mechanisms.</p>
+                <p>Prior to my PhD journey, I worked at Amazon as a Software Development Engineer. I graduated with Master's of Science in Computer Science from Georgia State University in Dec 2022.</p>
             </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" 
-                        alt="Experiance Icon"
-                        class="icon"
-                        />
-                        <h3>Interests</h3> <br>
-                        <p>Machine Learning</p>  
-                        <p>Bioinformatics</p>  
-                        <p>Data Science</p>  
-                        <p>Computer Vision</p>  
-                        <p>Natural Language Processing</p> 
+        </div>
+    </section>
 
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" 
-                        alt="Education Icon"
-                        class="icon"
-                        />
-                        <h3>Education</h3> <br>
-                        <p>Ph.D in Computer Science (Ongoing)</p>
-                        <p>Master's of Science in Computer Science</p>
-                        <p>Bachelor's of Engineering in Information Technology</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p> 
-                        I am a <b>PhD student at University of Texas at Arlington </b>, majoring in Computer Science working with Dr. Jacob Luber at Luber Lab. <br> I am applying <b>Machine Learning</b> and <b>Health Data Science</b> to omic data for advancements in cancer diagnosis, prognosis, treatment, and drug discovery. My research aims to bridge the gap between data science and clinical applications, contributing to the development of new drugs and treatment strategies that improve patient outcomes. Through my work, I strive to make significant contributions to the fight against cancer and enhance the understanding of its underlying mechanisms.
-                        <br><br><b>Past Life :) </b> <br>
-                        Prior to my PhD journey, I worked at Amazon as a Software Development Engineer. 
-                        <br>I graduated with <b>Master's of Science</b> in <b>Computer Science</b> from <b>Georgia State University</b> in Dec 2022. 
-                        during which I got an opportuinity to work as a Graduate Research Assistant at DMLab and Graduate Teaching Assistant for <b>CSC 8850 Advanced Machine Learning</b> under <b>Dr. Sergey Plis</b>.
-                        <br>I have also worked as Data Science Intern at Truist during summer of 2022.
-                        <br>Outside of my research and family commitments, I love to unwind by listening to music, cooking, and exploring new places.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" 
-        alt="Arrow Icon" 
-        class="icon arrow" 
-        onclick="location.href='./#experiance'">
-    </section>
-    <section id="experiance">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experiance</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-containers">
-                    <h3 class="experiance-sub-title">University of Texas at Arlington</h3>
-                    <div class="article-container">
-                        <article>
-                            <div>
-                                <h5 style="color: grey;">Luber Lab</h5>
-                                <h5>Graduate Research Assistant</h5>
-                                <p>Starting August 2024</p>
-                            </div>
-                        </article>
-                        
-                    </div>
-                </div>
-                <div class="details-containers">
-                    <h3 class="experiance-sub-title">Amazon</h3>
-                    <div class="article-container">
-                        <article>
-                            <div>
-                                <h5>Software Development Engineer</h5>
-                                <p>2+ years</p>
-                            </div>
-                        </article>
-                        
-                    </div>
-                </div>
-                <div class="details-containers">
-                    <h3 class="experiance-sub-title">Truist</h3>
-                    <div class="article-container">
-                        <article>
-                            <div>
-                                <h5>Data Science Intern</h5>
-                                <p>3 Months</p>
-                            </div>
-                        </article>
-                        
-                    </div>
-                </div>
-                <div class="details-containers">
-                    <h3 class="experiance-sub-title">Georgia State University</h3>
-                    <div class="article-container">
-                        <article>
-                            <div>
-                                <h5 style="color: grey;">DMLab</h5>
-                                <h5> Graduate Research Assistant</h5>
-                                <p>4 Months</p>
-                            </div>
-                        </article>
-                        
-                    </div>
-                </div>
-                <div class="details-containers">
-                    <h3 class="experiance-sub-title">Georgia State University</h3>
-                    <div class="article-container">
-                        <article>
-                            <div>
-                                <h5 style="color: grey;">CSC Advanced Machine Learning</h5>
-                                <h5>Graduate Teaching Assistant</h5>
-                                <p>1.5 years</p>
-                            </div>
-                        </article>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" 
-        alt="Arrow Icon" 
-        class="icon arrow" 
-        onclick="location.href='./#research'">
-    </section>
     <section id="research">
-        <p class="section__text__p1"> Browse My Recent</p>
-        <h1 class="title">Research</h1> 
-        <div class="experiance-details-container">
-            <div class="about-containers">
-                <div class="details-containers color-container">                   
-                    <p class="research-title"> Local Outlier Detection for Multi-type Spatio-temporal Trajectories </p>
-                    <p class="authors">Xumin Cai, Berkay Aydin, Saurabh Maydeo, Anli Ji, Rafal Angryk</p>
-                    <p class="conference">IEEE International Conference on Big Data 2020</p>
-
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 research-btn">
-                            Overview
-                        </button>
-                        <button class="btn btn-color-2 research-btn" onclick="location.href = 'https://ieeexplore.ieee.org/document/9377801' ">
-                            pdf
-                        </button>
-                        <button class="btn btn-color-2 research-btn">
-                            Code
-                        </button>
-                        <button class="btn btn-color-2 research-btn">
-                            Video
-                        </button>
-                    </div>
-                </div>
-                <div class="details-containers color-container">                   
-                    <p class="research-title"> Fake Currency Detection and its associated Classification
-                    </p>
-                    <p class="authors">Priyen Dang, Anurag Singh, Saurabh Maydeo, Saurabh Burange, Ameya Kasbekar, Harjeet Matharu
-                    </p>
-                    <p class="conference">IJIRCCE 2017</p>
-
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 research-btn">
-                            Overview
-                        </button>
-                        <button class="btn btn-color-2 research-btn" onclick="location.href = 'https://ijircce.com/admin/main/storage/app/pdf/gsMsdgx2sxNaPmP3wRmVlXPT03L2t1oIMzjMzPS5.pdf'">
-                            pdf
-                        </button>
-                        <button class="btn btn-color-2 research-btn">
-                            Code
-                        </button>
-                        <button class="btn btn-color-2 research-btn">
-                            Video
-                        </button>
-                    </div>
-                </div>
-                <div class="details-containers color-container">                   
-                    <p class="research-title"> Identification System based on Biometric Concept Using Human Eye </p>
-                    <p class="authors">Saurabh Singh, Arshi Khan, Saurabh Maydeo, Saurabh Burange, Priyen Dang, Shivam Shukla</p>
-                    <p class="conference">IJIRCCE 2017</p>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 research-btn">
-                            Overview
-                        </button>
-                        <button class="btn btn-color-2 research-btn" onclick="location.href = 'https://ijircce.com/admin/main/storage/app/pdf/0YgQ7iFLXjxjLZd2AUx7Rsk953nCH7FaFkpHOx4N.pdf'">
-                            pdf
-                        </button>
-                        <button class="btn btn-color-2 research-btn">
-                            Code
-                        </button>
-                        <button class="btn btn-color-2 research-btn">
-                            Video
-                        </button>
-                    </div>
-                </div>
-                
-                <div></div>
+        <h1 class="title">Current Research</h1>
+        <div class="research-container">
+            <div class="research-item">
+                <h2>LLM for Oncology</h2>
+                <p>Working on applying Large Language Models in the field of Oncology to advance cancer research and treatment.</p>
             </div>
         </div>
-        <img src="./assets/arrow.png" 
-        alt="Arrow Icon" 
-        class="icon arrow" 
-        onclick="location.href='./#projects'">
     </section>
 
-    <section id="projects">
-    <p class="section__text__p1"> Browse My Other</p>
-    <h1 class="title">Projects</h1> 
-    <div class="experiance-details-container">
-        <div class="about-containers">
-            <div class="details-containers color-container">                   
-                <p class="project-title"> Classification of tweets into disaster and non-disaster tweets </p>
-               
-                <div class="btn-container">
-                    <button class="btn btn-color-2 research-btn">
-                        Overview
-                    </button>
-                    <button class="btn btn-color-2 research-btn" onclick="location.href = 'https://ieeexplore.ieee.org/document/9377801' ">
-                        pdf
-                    </button>
-                    <button class="btn btn-color-2 research-btn">
-                        Code
-                    </button>
-                    <button class="btn btn-color-2 research-btn">
-                        Video
-                    </button>
-                </div>
+    <section id="experience">
+        <h1 class="title">Experience</h1>
+        <div class="experience-container">
+            <div class="experience-item">
+                <h3>Graduate Research Assistant</h3>
+                <p class="organization">University of Texas at Arlington - Luber Lab</p>
+                <p class="date">Starting August 2024</p>
+                <p class="description">Working on LLM applications in Oncology research</p>
             </div>
-            <div class="details-containers color-container">                   
-                <p class="project-title"> Breast Cancer Classification </p>
-
-
-                <div class="btn-container">
-                    <button class="btn btn-color-2 research-btn">
-                        Overview
-                    </button>
-                    <button class="btn btn-color-2 research-btn" onclick="location.href = 'https://ijircce.com/admin/main/storage/app/pdf/gsMsdgx2sxNaPmP3wRmVlXPT03L2t1oIMzjMzPS5.pdf ' ">
-                        pdf
-                    </button>
-                    <button class="btn btn-color-2 research-btn">
-                        Code
-                    </button>
-                    <button class="btn btn-color-2 research-btn">
-                        Video
-                    </button>
-                </div>
+            <div class="experience-item">
+                <h3>Software Development Engineer</h3>
+                <p class="organization">Amazon</p>
+                <p class="date">2022 - 2024</p>
+                <p class="description">Developed Java backend solutions enhancing publishers' inventory monetization in ad delivery system</p>
             </div>
-            <div class="details-containers color-container">                   
-                <p class="project-title"> ML Models from scratch </p>
-
-                <div class="btn-container">
-                    <button class="btn btn-color-2 research-btn">
-                        Overview
-                    </button>
-                    <button class="btn btn-color-2 research-btn" onclick="location.href = 'https://ijircce.com/admin/main/storage/app/pdf/0YgQ7iFLXjxjLZd2AUx7Rsk953nCH7FaFkpHOx4N.pdf' ">
-                        pdf
-                    </button>
-                    <button class="btn btn-color-2 research-btn">
-                        Code
-                    </button>
-                    <button class="btn btn-color-2 research-btn">
-                        Video
-                    </button>
-                </div>
+            <div class="experience-item">
+                <h3>Graduate Research Assistant</h3>
+                <p class="organization">Georgia State University - DMLab</p>
+                <p class="date">2020 - 2021</p>
+                <p class="description">Worked on spatio-temporal trajectory data analysis</p>
             </div>
-            
-            <div></div>
         </div>
-    </div>
-    <img src="./assets/arrow.png" 
-    alt="Arrow Icon" 
-    class="icon arrow" 
-    onclick="location.href='./#contact'">
     </section>
 
-    <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img 
-                src="./assets/email.png" 
-                alt="email icon" 
-                class="icon contact-icon email-icon"
-                />
-                <p><a href="mailto:saurabhmaydeo@gmail.com">SaurabhMaydeo@gmail.com</a></p>
-
+    <section id="publications">
+        <h1 class="title">Publications</h1>
+        <div class="publications-container">
+            <div class="publication-item">
+                <h3>Local Outlier Detection for Multi-type Spatio-temporal Trajectories</h3>
+                <p class="authors">Xumin Cai, Berkay Aydin, Saurabh Maydeo, Anli Ji, Rafal Angryk</p>
+                <p class="venue">IEEE International Conference on Big Data 2020</p>
+                <div class="publication-links">
+                    <a href="#" class="pub-link">PDF</a>
+                    <a href="#" class="pub-link">Code</a>
+                </div>
             </div>
-            <div class="contact-info-container">
-                <img 
-                src="./assets/linkedin.png" 
-                alt="LinkedIn icon" 
-                class="icon contact-icon"
-                />
-                <p><a href="https://www.linkedin.com/in/saurabh-maydeo/">Saurabh Maydeo</a></p>
-
+            <div class="publication-item">
+                <h3>Fake Currency Detection and its Associated Classification</h3>
+                <p class="authors">Priyen Dang, Anurag Singh, Saurabh Maydeo, et al.</p>
+                <p class="venue">IJIRCCE 2017</p>
+                <div class="publication-links">
+                    <a href="#" class="pub-link">PDF</a>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experiance">Experiance</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <p>Copyright &#169; 2024 Saurabh Maydeo. All Rights Reserved</p>
+        <p>© 2024 Saurabh Maydeo. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
