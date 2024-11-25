@@ -1,0 +1,33 @@
+# _config.yml
+title: Saurabh Maydeo
+email: SaurabhMaydeo@gmail.com
+description: >
+  PhD Student at UTA | Machine Learning | Healthcare | Bioinformatics
+baseurl: ""
+url: "https://saurabhmaydeo.github.io"
+github_username: saurabhmaydeo
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: About
+    url: /about/
+  - title: Experience
+    url: /experience/
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Contact
+    url: /contact/
+
+# Gemfile
+source "https://rubygems.org"
+gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-seo-tag"
