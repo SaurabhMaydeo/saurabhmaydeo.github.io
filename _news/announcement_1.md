@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my **PhD in Computer Science** at the University of Texas at Arlington, joining Luber Lab under Dr. Jacob Luber. Excited to work on LLM Safety and Multi-Agent Systems!
+Started my **PhD in Computer Science** at the University of Texas at Arlington. Excited to work on LLM Safety and Multi-Agent Systems!

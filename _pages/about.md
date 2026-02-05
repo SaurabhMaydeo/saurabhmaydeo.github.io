@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Computer Science at the University of Texas at Arlington, working under the guidance of [Dr. Jacob Luber](https://luberlab.org/) at the Luber Lab.
+I am a PhD student in Computer Science at the University of Texas at Arlington.
 
 My research focuses on the intersection of **Large Language Models (LLMs)** and **AI Safety**. I am particularly interested in:
 
