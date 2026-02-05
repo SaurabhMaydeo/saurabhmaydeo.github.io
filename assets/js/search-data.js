@@ -59,8 +59,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-started-my-phd-in-computer-science-at-the-university-of-texas-at-arlington-joining-luber-lab-under-dr-jacob-luber-excited-to-work-on-llm-safety-and-multi-agent-systems",
-          title: 'Started my PhD in Computer Science at the University of Texas at Arlington,...',
+      },{id: "news-started-my-phd-in-computer-science-at-the-university-of-texas-at-arlington-excited-to-work-on-llm-safety-and-multi-agent-systems",
+          title: 'Started my PhD in Computer Science at the University of Texas at Arlington....',
           description: "",
           section: "News",},{id: "projects-breast-cancer-classification",
           title: 'Breast Cancer Classification',
