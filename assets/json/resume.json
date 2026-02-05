@@ -1,0 +1,201 @@
+{
+  "basics": {
+    "name": "Saurabh Maydeo",
+    "label": "PhD Student",
+    "image": "",
+    "email": "SaurabhMaydeo@gmail.com",
+    "summary": "PhD student in Computer Science at UT Arlington, researching LLM Safety, Multi-Agent Systems, and AI Security. Former Software Engineer at Amazon.",
+    "location": {
+      "city": "Arlington",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "name": "University of Texas at Arlington",
+      "position": "Graduate Research Assistant",
+      "location": "Arlington, TX",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "summary": "Conducting research on LLM Safety, Multi-Agent Systems, and AI Security at Luber Lab under Dr. Jacob Luber.",
+      "highlights": [
+        "Research focus on LLM security and safety",
+        "Multi-agent systems architecture",
+        "Coding agent safety"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "position": "Software Development Engineer",
+      "location": "Seattle, WA",
+      "startDate": "2022-02-01",
+      "endDate": "2024-07-01",
+      "summary": "Developed backend solutions for ad delivery systems, enhancing publishers' inventory monetization.",
+      "highlights": [
+        "Developed Java backend solutions for ad delivery system",
+        "Designed business logic and DAO layer for persistent data storage",
+        "Deployed Event Producer library simplifying event publication",
+        "Resolved production issues through meticulous troubleshooting"
+      ]
+    },
+    {
+      "name": "Truist",
+      "position": "Data Science Intern",
+      "location": "Charlotte, NC",
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-01",
+      "summary": "Applied machine learning to extract insights from financial data models.",
+      "highlights": [
+        "Leveraged ML algorithms on Retail Deposit Attrition Model",
+        "Developed hackathon project analyzing call center data"
+      ]
+    },
+    {
+      "name": "Georgia State University",
+      "position": "Graduate Research Assistant",
+      "location": "Atlanta, GA",
+      "startDate": "2020-05-01",
+      "endDate": "2021-04-01",
+      "summary": "Worked on spatio-temporal trajectory analysis in the solar astroinformatics domain at DMLab.",
+      "highlights": [
+        "Spatio-temporal trajectory datasets from solar astroinformatics",
+        "Published research on local outlier detection"
+      ]
+    },
+    {
+      "name": "Georgia State University",
+      "position": "Graduate Teaching Assistant",
+      "location": "Atlanta, GA",
+      "startDate": "2020-09-01",
+      "endDate": "2021-12-01",
+      "summary": "Supported Advanced Machine Learning course under Dr. Sergey Plis.",
+      "highlights": [
+        "Evaluated assignments and conducted doubt-solving sessions",
+        "Advanced Machine Learning course"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Texas at Arlington",
+      "location": "Arlington, TX",
+      "area": "Computer Science",
+      "studyType": "PhD",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Georgia State University",
+      "location": "Atlanta, GA",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2019-08-01",
+      "endDate": "2021-12-01",
+      "score": "3.80/4.00",
+      "courses": []
+    },
+    {
+      "institution": "University of Mumbai",
+      "location": "Mumbai, India",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2014-08-01",
+      "endDate": "2018-05-01",
+      "score": "8.74/10.00",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Transformers",
+        "LLMs",
+        "NLP"
+      ]
+    },
+    {
+      "name": "Cloud & Tools",
+      "level": "Advanced",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Git",
+        "Linux"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Marathi",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research",
+      "icon": "fa-solid fa-flask",
+      "keywords": [
+        "LLM Safety",
+        "AI Security",
+        "Multi-Agent Systems",
+        "Coding Agents",
+        "AI Ethics"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Breast Cancer Classification",
+      "summary": "Developed an ML model to classify patients into malignant and benign for breast cancer with 96.50% accuracy using Random Forest.",
+      "highlights": ["Python", "scikit-learn", "Keras"],
+      "startDate": "2020-01-01",
+      "endDate": "2020-05-01"
+    },
+    {
+      "name": "Disaster Tweet Classification",
+      "summary": "Built an ML model to classify tweets into disastrous and non-disastrous categories, achieving 80.90% F1 score using BERT.",
+      "highlights": ["Python", "TensorFlow", "BERT"],
+      "startDate": "2020-01-01",
+      "endDate": "2020-05-01"
+    },
+    {
+      "name": "Cloud-Based File Storage System",
+      "summary": "Created a cloud-based file storage system inspired by Google Drive using AWS S3 and RDS.",
+      "highlights": ["Java", "AWS S3", "AWS RDS", "React"],
+      "startDate": "2021-01-01",
+      "endDate": "2021-05-01"
+    }
+  ]
+}
